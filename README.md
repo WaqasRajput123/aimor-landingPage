@@ -1,71 +1,78 @@
-Aimor – Clothing Brand Website
+# aimor Website
 
-A modern, responsive website for Aimor, a Gen Z–focused clothing brand known for premium 380gsm cotton fleece hoodies with export-quality DTF printing. This site is designed to showcase products, engage customers, and provide a seamless shopping experience.
+Welcome to the official Aimor brand website! This is a modern, fast, and responsive landing page built with React and Vite.
 
-Features
+## Features
 
-Stylish & Responsive Design – Built using React and Tailwind CSS to ensure a clean, eye-catchy layout across devices.
+- Built with React for a component-based architecture
+- Powered by Vite for lightning-fast development and build
+- Responsive design optimized for desktop and mobile
+- Clean and minimal landing page layout
+- Easy to customize and extend
 
-Fast Performance – Optimized images and smooth transitions for a better user experience.
+## Technologies Used
 
-Interactive UI – Easy navigation with animated components and modern design.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- CSS / SCSS (or specify your styling approach)
+- (Add any other libraries or tools you used)
 
-Brand Story & Product Focus – Highlights the premium quality and unique style of Aimor apparel.
+## Getting Started
 
-Tech Stack
+### Prerequisites
 
-Frontend: React.js, Tailwind CSS
+Make sure you have [Node.js](https://nodejs.org/) installed (version 14 or higher recommended).
 
-Package Manager: npm
+### Installation
 
-Version Control: Git & GitHub
+1. Clone the repository:
 
-Project Structure
-Aimor/
-├── public/          # Static assets (images, icons, etc.)
-├── src/
-│   ├── components/  # Reusable React components
-│   ├── App.js       # Main app component
-│   └── index.js     # Entry point
-├── package.json     # Dependencies and scripts
-└── README.md        # Project documentation
+   ```bash
+   git clone https://github.com/yourusername/aimor-website.git
+   cd aimor-website
+ ## Install dependencies
+ 
+   npm install
+   # or
+   yarn install
 
-Getting Started
-
-Clone this repository
-
-git clone https://github.com/<WaqasRajput123>/aimor-website.git
-cd aimor-website
-
-
-Install dependencies
-
-npm install
-
-
-Run development server
+## Running Locally
 
 npm run dev
+# or
+yarn dev
 
-
-Open http://localhost:5173 (or as specified) to view in the browser.
-
-Build for production
+## Building for Production
 
 npm run build
+# or
+yarn build
 
-Deployment
+## Preview Production Build
 
-This project can be deployed on platforms like Vercel, Netlify, or GitHub Pages for fast, free hosting.
+npm run preview
+# or
+yarn preview
 
-Future Improvements
+## Deployment
 
-Add e-commerce functionality (cart, checkout).
+pending
 
-Product filter and search features.
 
-Backend integration for order management.
+## Folder Structure
 
-License
+aimor-website/
+├── public/          # Static assets
+├── src/
+│   ├── assets/      # Images, fonts, etc.
+│   ├── components/  # React components
+│   ├── App.jsx      # Main app component
+│   ├── main.jsx     # Entry point
+│   └── styles/      # CSS or SCSS files
+├── index.html       # HTML template
+├── package.json
+├── vite.config.js
+└── README.md
 
-This project is licensed under the MIT License – you are free to use, modify, and distribute it.
+## License
+Specify your license here (e.g., MIT License).
